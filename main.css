@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+h1{
+  color:yellow;
+}
+
+#page_title{
+  color:red;
+}
+
+#page_title:active{
+  color:yellow;
+}
+
+.text{
+  color:green;
+}
+
+.content > p{
+  color:red;
+}
+
+.box{
+  background-color:aqua;
+  margin:auto; /*中央揃え*/
+  width:350px;
+}
+
+.texts:focus{
+  color: #FCC;
+}
+
+a:link{
+  color:#C00;
+}
+
+a:visited{
+  color:#F33;
+}
+
+a:hover{
+  color:#F33;
+}
